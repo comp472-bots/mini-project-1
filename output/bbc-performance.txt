@@ -3,64 +3,68 @@
 
 (b) Confusion Matrix
 
-139	 0	 2	 0	 5	
-0	 81	 2	 0	 3	
-2	 0	 101	 0	 2	
-0	 1	 0	 115	 0	
-0	 1	 1	 0	 102	
+129	 0	 2	 0	 5	
+1	 87	 1	 0	 0	
+0	 0	 101	 0	 1	
+0	 0	 0	 130	 0	
+0	 2	 2	 0	 96	
 
 (c) Classification Report
 
                precision    recall  f1-score   support
 
-     business       0.99      0.95      0.97       146
-entertainment       0.98      0.94      0.96        86
-     politics       0.95      0.96      0.96       105
-        sport       1.00      0.99      1.00       116
-         tech       0.91      0.98      0.94       104
+     business       0.99      0.95      0.97       136
+entertainment       0.98      0.98      0.98        89
+     politics       0.95      0.99      0.97       102
+        sport       1.00      1.00      1.00       130
+         tech       0.94      0.96      0.95       100
 
      accuracy                           0.97       557
-    macro avg       0.97      0.97      0.96       557
- weighted avg       0.97      0.97      0.97       557
+    macro avg       0.97      0.98      0.97       557
+ weighted avg       0.98      0.97      0.97       557
 
 (d) Accuracy, Macro-Average F1 and Weighted-Average F1
 
-Accuracy Score: 0.9658886894075404
-Macro-Average F1: 0.9649364816637609
-Weighted-Average F1: 0.9660697618388104
+Accuracy Score: 0.9748653500897666
+Macro-Average F1: 0.9738203595153024
+Weighted-Average F1: 0.9748958199179131
 
 (e) Prior Probability of Each Class F1
 
-business: 0.2182
-entertainment: 0.1799
-politics: 0.1871
-sport: 0.2368
-tech: 0.1781
+business: 0.2242
+entertainment: 0.1781
+politics: 0.1888
+sport: 0.2284
+tech: 0.1805
 
 (f) The Size of the Vocablary
-The size of the vocabulary: 25733
+The size of the vocabulary: 26197
 
 (g) The number of word-tokens in each class (i.e. the number of words in total)
-The number of word tokens by class: {'business': 116646.0, 'entertainment': 90745.0, 'politics': 136790.0, 'sport': 123847.0, 'tech': 144059.0}
+The number of word tokens by class: {'business': 120291.0, 'entertainment': 95688.0, 'politics': 133747.0, 'sport': 121890.0, 'tech': 150137.0}
 
 (h) The number of word-tokens in the entire corpus
-Total word-tokens in the corpus: 612087.0
+Total word-tokens in the corpus: 621753.0
 
 (i) the number and percentage of words with a frequency of zero in each class
-Count for business: 15623
-Percentage for business: 60.71%
-Count for entertainment: 15881
-Percentage for entertainment: 61.71%
-Count for politics: 16110
-Percentage for politics: 62.60%
-Count for sport: 16216
-Percentage for sport: 63.02%
-Count for tech: 15481
-Percentage for tech: 60.16%
+Count for business: 15885
+Percentage for business: 60.64%
+Count for entertainment: 15981
+Percentage for entertainment: 61.00%
+Count for politics: 16446
+Percentage for politics: 62.78%
+Count for sport: 16900
+Percentage for sport: 64.51%
+Count for tech: 15347
+Percentage for tech: 58.58%
+
+(j) the number and percentage of words with a frequency of one in the entire corpus
+The number of words: 9350
+The percentage of words: 35.69%
 
 (k) your 2 favorite words (that are present in the vocabulary) and their log-prob
-log_prob of word 'executive': -41.259071498671474
-log_prob of word 'the': -14.754969638939341
+log_prob of word 'executive': -41.30779430862895
+log_prob of word 'the': -14.783049693667323
 
 ---------------------------------------------------------------------
 
@@ -68,68 +72,68 @@ log_prob of word 'the': -14.754969638939341
 
 (b) Confusion Matrix
 
-139	 0	 2	 0	 5	
-0	 81	 2	 0	 3	
-2	 0	 101	 0	 2	
-0	 1	 0	 115	 0	
-0	 1	 1	 0	 102	
+129	 0	 2	 0	 5	
+1	 87	 1	 0	 0	
+0	 0	 101	 0	 1	
+0	 0	 0	 130	 0	
+0	 2	 2	 0	 96	
 
 (c) Classification Report
 
                precision    recall  f1-score   support
 
-     business       0.99      0.95      0.97       146
-entertainment       0.98      0.94      0.96        86
-     politics       0.95      0.96      0.96       105
-        sport       1.00      0.99      1.00       116
-         tech       0.91      0.98      0.94       104
+     business       0.99      0.95      0.97       136
+entertainment       0.98      0.98      0.98        89
+     politics       0.95      0.99      0.97       102
+        sport       1.00      1.00      1.00       130
+         tech       0.94      0.96      0.95       100
 
      accuracy                           0.97       557
-    macro avg       0.97      0.97      0.96       557
- weighted avg       0.97      0.97      0.97       557
+    macro avg       0.97      0.98      0.97       557
+ weighted avg       0.98      0.97      0.97       557
 
 (d) Accuracy, Macro-Average F1 and Weighted-Average F1
 
-Accuracy Score: 0.9658886894075404
-Macro-Average F1: 0.9649364816637609
-Weighted-Average F1: 0.9660697618388104
+Accuracy Score: 0.9748653500897666
+Macro-Average F1: 0.9738203595153024
+Weighted-Average F1: 0.9748958199179131
 
 (e) Prior Probability of Each Class F1
 
-business: 0.2182
-entertainment: 0.1799
-politics: 0.1871
-sport: 0.2368
-tech: 0.1781
+business: 0.2242
+entertainment: 0.1781
+politics: 0.1888
+sport: 0.2284
+tech: 0.1805
 
 (f) The Size of the Vocablary
-The size of the vocabulary: 25733
+The size of the vocabulary: 26197
 
 (g) The number of word-tokens in each class (i.e. the number of words in total)
-The number of word tokens by class: {'business': 116646.0, 'entertainment': 90745.0, 'politics': 136790.0, 'sport': 123847.0, 'tech': 144059.0}
+The number of word tokens by class: {'business': 120291.0, 'entertainment': 95688.0, 'politics': 133747.0, 'sport': 121890.0, 'tech': 150137.0}
 
 (h) The number of word-tokens in the entire corpus
-Total word-tokens in the corpus: 612087.0
+Total word-tokens in the corpus: 621753.0
 
 (i) the number and percentage of words with a frequency of zero in each class
-Count for business: 15623
-Percentage for business: 60.71%
-Count for entertainment: 15881
-Percentage for entertainment: 61.71%
-Count for politics: 16110
-Percentage for politics: 62.60%
-Count for sport: 16216
-Percentage for sport: 63.02%
-Count for tech: 15481
-Percentage for tech: 60.16%
+Count for business: 15885
+Percentage for business: 60.64%
+Count for entertainment: 15981
+Percentage for entertainment: 61.00%
+Count for politics: 16446
+Percentage for politics: 62.78%
+Count for sport: 16900
+Percentage for sport: 64.51%
+Count for tech: 15347
+Percentage for tech: 58.58%
 
 (j) the number and percentage of words with a frequency of one in the entire corpus
-The number of words: 9061
-The percentage of words: 35.21%
+The number of words: 9350
+The percentage of words: 35.69%
 
 (k) your 2 favorite words (that are present in the vocabulary) and their log-prob
-log_prob of word 'executive': -41.259071498671474
-log_prob of word 'the': -14.754969638939341
+log_prob of word 'executive': -41.30779430862895
+log_prob of word 'the': -14.783049693667323
 
 ---------------------------------------------------------------------
 
@@ -137,68 +141,68 @@ log_prob of word 'the': -14.754969638939341
 
 (b) Confusion Matrix
 
-140	 0	 2	 0	 4	
-0	 84	 1	 0	 1	
-2	 1	 100	 0	 2	
-0	 0	 0	 116	 0	
-1	 1	 0	 0	 102	
+129	 0	 1	 0	 6	
+2	 86	 0	 0	 1	
+0	 0	 101	 0	 1	
+0	 0	 0	 130	 0	
+0	 2	 0	 0	 98	
 
 (c) Classification Report
 
                precision    recall  f1-score   support
 
-     business       0.98      0.96      0.97       146
-entertainment       0.98      0.98      0.98        86
-     politics       0.97      0.95      0.96       105
-        sport       1.00      1.00      1.00       116
-         tech       0.94      0.98      0.96       104
+     business       0.98      0.95      0.97       136
+entertainment       0.98      0.97      0.97        89
+     politics       0.99      0.99      0.99       102
+        sport       1.00      1.00      1.00       130
+         tech       0.92      0.98      0.95       100
 
-     accuracy                           0.97       557
-    macro avg       0.97      0.97      0.97       557
- weighted avg       0.97      0.97      0.97       557
+     accuracy                           0.98       557
+    macro avg       0.98      0.98      0.98       557
+ weighted avg       0.98      0.98      0.98       557
 
 (d) Accuracy, Macro-Average F1 and Weighted-Average F1
 
-Accuracy Score: 0.9658886894075404
-Macro-Average F1: 0.9649364816637609
-Weighted-Average F1: 0.9660697618388104
+Accuracy Score: 0.9748653500897666
+Macro-Average F1: 0.9738203595153024
+Weighted-Average F1: 0.9748958199179131
 
 (e) Prior Probability of Each Class F1
 
-business: 0.2182
-entertainment: 0.1799
-politics: 0.1871
-sport: 0.2368
-tech: 0.1781
+business: 0.2242
+entertainment: 0.1781
+politics: 0.1888
+sport: 0.2284
+tech: 0.1805
 
 (f) The Size of the Vocablary
-The size of the vocabulary: 25733
+The size of the vocabulary: 26197
 
 (g) The number of word-tokens in each class (i.e. the number of words in total)
-The number of word tokens by class: {'business': 116646.0, 'entertainment': 90745.0, 'politics': 136790.0, 'sport': 123847.0, 'tech': 144059.0}
+The number of word tokens by class: {'business': 120291.0, 'entertainment': 95688.0, 'politics': 133747.0, 'sport': 121890.0, 'tech': 150137.0}
 
 (h) The number of word-tokens in the entire corpus
-Total word-tokens in the corpus: 612087.0
+Total word-tokens in the corpus: 621753.0
 
 (i) the number and percentage of words with a frequency of zero in each class
-Count for business: 15623
-Percentage for business: 60.71%
-Count for entertainment: 15881
-Percentage for entertainment: 61.71%
-Count for politics: 16110
-Percentage for politics: 62.60%
-Count for sport: 16216
-Percentage for sport: 63.02%
-Count for tech: 15481
-Percentage for tech: 60.16%
+Count for business: 15885
+Percentage for business: 60.64%
+Count for entertainment: 15981
+Percentage for entertainment: 61.00%
+Count for politics: 16446
+Percentage for politics: 62.78%
+Count for sport: 16900
+Percentage for sport: 64.51%
+Count for tech: 15347
+Percentage for tech: 58.58%
 
 (j) the number and percentage of words with a frequency of one in the entire corpus
-The number of words: 9061
-The percentage of words: 35.21%
+The number of words: 9350
+The percentage of words: 35.69%
 
 (k) your 2 favorite words (that are present in the vocabulary) and their log-prob
-log_prob of word 'executive': -40.44447806481491
-log_prob of word 'the': -13.781228487856675
+log_prob of word 'executive': -40.49311863718379
+log_prob of word 'the': -13.810405098165617
 
 ---------------------------------------------------------------------
 
@@ -206,65 +210,65 @@ log_prob of word 'the': -13.781228487856675
 
 (b) Confusion Matrix
 
-139	 0	 2	 0	 5	
-0	 81	 2	 0	 3	
-2	 0	 101	 0	 2	
-0	 1	 0	 115	 0	
-0	 1	 1	 0	 102	
+130	 0	 1	 0	 5	
+1	 87	 1	 0	 0	
+0	 0	 101	 0	 1	
+0	 0	 0	 130	 0	
+0	 2	 2	 0	 96	
 
 (c) Classification Report
 
                precision    recall  f1-score   support
 
-     business       0.99      0.95      0.97       146
-entertainment       0.98      0.94      0.96        86
-     politics       0.95      0.96      0.96       105
-        sport       1.00      0.99      1.00       116
-         tech       0.91      0.98      0.94       104
+     business       0.99      0.96      0.97       136
+entertainment       0.98      0.98      0.98        89
+     politics       0.96      0.99      0.98       102
+        sport       1.00      1.00      1.00       130
+         tech       0.94      0.96      0.95       100
 
-     accuracy                           0.97       557
-    macro avg       0.97      0.97      0.96       557
- weighted avg       0.97      0.97      0.97       557
+     accuracy                           0.98       557
+    macro avg       0.97      0.98      0.98       557
+ weighted avg       0.98      0.98      0.98       557
 
 (d) Accuracy, Macro-Average F1 and Weighted-Average F1
 
-Accuracy Score: 0.9658886894075404
-Macro-Average F1: 0.9649364816637609
-Weighted-Average F1: 0.9660697618388104
+Accuracy Score: 0.9748653500897666
+Macro-Average F1: 0.9738203595153024
+Weighted-Average F1: 0.9748958199179131
 
 (e) Prior Probability of Each Class F1
 
-business: 0.2182
-entertainment: 0.1799
-politics: 0.1871
-sport: 0.2368
-tech: 0.1781
+business: 0.2242
+entertainment: 0.1781
+politics: 0.1888
+sport: 0.2284
+tech: 0.1805
 
 (f) The Size of the Vocablary
-The size of the vocabulary: 25733
+The size of the vocabulary: 26197
 
 (g) The number of word-tokens in each class (i.e. the number of words in total)
-The number of word tokens by class: {'business': 116646.0, 'entertainment': 90745.0, 'politics': 136790.0, 'sport': 123847.0, 'tech': 144059.0}
+The number of word tokens by class: {'business': 120291.0, 'entertainment': 95688.0, 'politics': 133747.0, 'sport': 121890.0, 'tech': 150137.0}
 
 (h) The number of word-tokens in the entire corpus
-Total word-tokens in the corpus: 612087.0
+Total word-tokens in the corpus: 621753.0
 
 (i) the number and percentage of words with a frequency of zero in each class
-Count for business: 15623
-Percentage for business: 60.71%
-Count for entertainment: 15881
-Percentage for entertainment: 61.71%
-Count for politics: 16110
-Percentage for politics: 62.60%
-Count for sport: 16216
-Percentage for sport: 63.02%
-Count for tech: 15481
-Percentage for tech: 60.16%
+Count for business: 15885
+Percentage for business: 60.64%
+Count for entertainment: 15981
+Percentage for entertainment: 61.00%
+Count for politics: 16446
+Percentage for politics: 62.78%
+Count for sport: 16900
+Percentage for sport: 64.51%
+Count for tech: 15347
+Percentage for tech: 58.58%
 
 (j) the number and percentage of words with a frequency of one in the entire corpus
-The number of words: 9061
-The percentage of words: 35.21%
+The number of words: 9350
+The percentage of words: 35.69%
 
 (k) your 2 favorite words (that are present in the vocabulary) and their log-prob
-log_prob of word 'executive': -41.185597874636755
-log_prob of word 'the': -14.665871193372622
+log_prob of word 'executive': -41.234270281989566
+log_prob of word 'the': -14.694010800361438

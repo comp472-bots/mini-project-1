@@ -1,0 +1,26 @@
+Question 11
+ 
+(a) 
+
+First and foremost, it is necessary to discuss the class balance of business/entertainment/politics/sport/tech
+As illustrated in the first section, the classes are MOSTLY balanced (with some minor discrepancies)
+
+Thus, it can be said that accuracy along with F1 measure (macro and weighted) are suitable measures for this dataset.
+
+This is highlighted by the fact that the accuracy score, macro-average F1, and weighted-average F1 all
+have a similar result of 0.97-0.98!
+
+If it was the case that there is a major class imbalance, weighted-average F1 would be much more suitable in
+order to account for the classes that are represented less.
+
+-----------------------------------------------------------------------------------------------------------------------
+
+(b)
+
+The performance of the multinomial was very similar for steps (8-10)
+
+A small change that can be observed is in the feature log probabilities of the words (Question #7 (k)) 
+when changing the smoothing values.
+
+Note that this is expected, since smoothing was applied!!!
+
