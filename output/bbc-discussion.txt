@@ -8,7 +8,7 @@ As illustrated in the first section, the classes are MOSTLY balanced (with some 
 Thus, it can be said that accuracy along with F1 measure (macro and weighted) are suitable measures for this dataset.
 
 This is highlighted by the fact that the accuracy score, macro-average F1, and weighted-average F1 all
-have a similar result of 0.97-0.98!
+have a similar result of 0.96-0.98!
 
 If it was the case that there is a major class imbalance, weighted-average F1 would be much more suitable in
 order to account for the classes that are represented less.
@@ -18,15 +18,19 @@ order to account for the classes that are represented less.
 (b)
 
 There are many interesting observations that can be drawn from steps 8-10. First and foremost, it is important
-to note that step 8 (MultinomialNB with default values) yielded the same results as step 6. 
---> This is expected behavior given that we kept the same values and did not redo the test split!
+to note that step 8 (MultinomialNB with default values) yielded the same results as step 7. 
+--> This is expected behaviour given that we kept the same default values and did not redo the test split NOR the count vectorization!
 
-Moreover, the performance of the MultinomialNB models were very similar for steps (8-10). All the models achieved
-a similar performance in terms of accuracy, macro-average F1, and weighted-average F1. 
-(There is a very small differences in the confusion matrices).
+Moreover, the performance of the MultinomialNB models were very similar for steps (8-10) along with step 7. 
+All the models achieved a similar performance in terms of accuracy, macro-average F1, and weighted-average F1. 
+In particular the accuracy score, macro-average F1, and weighted-average F1 all have a similar result of 0.96-0.98!
+(There are very small differences in the confusion matrices because of the smoothing).
 
-Lastly, a small change that can be observed is in the feature log probabilities of the words (Question #7 (k)) 
-when changing the smoothing values.
+The word counts and word token counts remained the same given the fact that we did not redo the test split 
+NOR did we redo the count vectorization.
+--> Hence, it is expected that the same vocabulary is used!
 
-Note that this is expected, since smoothing was applied!!!
+Lastly, a small change that can be observed is in the feature log probabilities (Question #7 (k)) 
+when changing the smoothing values. 
+--> Note that this is expected, since smoothing was applied!!!
 
