@@ -17,6 +17,7 @@ order to account for the classes that are represented less.
 
 (b)
 
+There are many interesting observations that can be drawn
 The performance of the multinomial was very similar for steps (8-10)
 
 A small change that can be observed is in the feature log probabilities of the words (Question #7 (k)) 
