@@ -56,15 +56,15 @@ Weighted-Average F1: 0.9030935494765282
        drugX       1.00      1.00      1.00         9
        drugY       1.00      1.00      1.00        26
 
-    accuracy                           1.00        50
-   macro avg       1.00      1.00      1.00        50
-weighted avg       1.00      1.00      1.00        50
+    accuracy                           0.98        50
+   macro avg       0.97      0.90      0.92        50
+weighted avg       0.98      0.98      0.98        50
 
 (d) Accuracy, Macro-Average F1 and Weighted-Average F1
 
-Accuracy Score: 1.0
-Macro-Average F1: 1.0
-Weighted-Average F1: 1.0
+Accuracy Score: 0.98
+Macro-Average F1: 0.9179487179487179
+Weighted-Average F1: 0.9774358974358975
 
 
 ---------------------------------------------------------------------
@@ -92,15 +92,15 @@ Best hyper-parameter values determined by GridSearch:{'criterion': 'gini', 'max_
        drugX       1.00      1.00      1.00         9
        drugY       1.00      1.00      1.00        26
 
-    accuracy                           1.00        50
-   macro avg       1.00      1.00      1.00        50
-weighted avg       1.00      1.00      1.00        50
+    accuracy                           0.98        50
+   macro avg       0.97      0.90      0.92        50
+weighted avg       0.98      0.98      0.98        50
 
 (d) Accuracy, Macro-Average F1 and Weighted-Average F1
 
-Accuracy Score: 1.0
-Macro-Average F1: 1.0
-Weighted-Average F1: 1.0
+Accuracy Score: 0.98
+Macro-Average F1: 0.9179487179487179
+Weighted-Average F1: 0.9774358974358975
 
 
 ---------------------------------------------------------------------
@@ -228,18 +228,18 @@ Standard Deviation of Weighted-average F1 = 0.0
 
 Decision Tree:
 
-Average Accuracy = 1.0
-Average Macro-Average F1 = 1.0
-Average Weighted-Average F1 = 1.0
+Average Accuracy = 0.98
+Average Macro-Average F1 = 0.9179487179487179
+Average Weighted-Average F1 = 0.9774358974358975
 Standard Deviation of Accuracy = 0.0
 Standard Deviation of Macro-average F1 = 0.0
 Standard Deviation of Weighted-average F1 = 0.0
 
 Decision Tree with GridSearch:
 
-Average Accuracy = 1.0
-Average Macro-Average F1 = 1.0
-Average Weighted-Average F1 = 1.0
+Average Accuracy = 0.98
+Average Macro-Average F1 = 0.9179487179487179
+Average Weighted-Average F1 = 0.9774358974358975
 Standard Deviation of Accuracy = 0.0
 Standard Deviation of Macro-average F1 = 0.0
 Standard Deviation of Weighted-average F1 = 0.0

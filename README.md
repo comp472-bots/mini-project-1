@@ -1,3 +1,5 @@
+https://github.com/comp472-bots/mini-project-1
+
 # 🧠 COMP 472 Mini-Project 1
 by Domenic Labbate (40063296) and Gianluca Lepore (40064389)
 
