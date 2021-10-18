@@ -6,9 +6,29 @@
 
 (b) Confusion Matrix
 
-5	 0	 0	 0	 0	
-0	 3	 0	 0	 0	
+7	 0	 0	 0	 0	
+0	 4	 0	 0	 0	
 0	 0	 0	 0	 0	
-0	 0	 0	 16	 1	
-4	 0	 4	 0	 17	
+0	 0	 0	 13	 0	
+2	 1	 3	 0	 20	
+
+(c) Classification Report
+
+              precision    recall  f1-score   support
+
+       drugA       0.78      1.00      0.88         7
+       drugB       0.80      1.00      0.89         4
+       drugC       0.00      0.00      0.00         0
+       drugX       1.00      1.00      1.00        13
+       drugY       1.00      0.77      0.87        26
+
+    accuracy                           0.88        50
+   macro avg       0.72      0.75      0.73        50
+weighted avg       0.95      0.88      0.91        50
+
+(d) Accuracy, Macro-Average F1 and Weighted-Average F1
+
+Accuracy Score: 0.88
+Macro-Average F1: 0.7266908212560388
+Weighted-Average F1: 0.9057850241545894
 
