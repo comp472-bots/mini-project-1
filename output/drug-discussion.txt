@@ -1,0 +1,18 @@
+
+
+After running each classification model 10 times, it was possible to obtain the average of important performance 
+metrics such as accuracy, macro-average F1 and weighted-average F1. It can be observed, upon viewing the outputs
+from the models, that the Gaussian Naive Bayes, Decision Tree, Decision Tree with Grid Search and Perceptron models gave 
+the same performance each time for these aforementioned metrics. This can be attributed to the fact that the test 
+split was not changed between runs and therefore the same set of data was processed each time, yielding the same 
+results. However, the Multi-Layered Perceptron and Multi-Layered Perceptron with Grid Search both had varying 
+performance results throughout the runs. This is evident based on a standard deviation not equal to 0 for these 
+models. This can be attributed to how multi-layered perceptron models used random number generation to initialize the weights.
+
+After looking at the average performance values for each run it is evident that the decision tree with and without 
+grid search yielded the best results with an average accuarcy, macro-average F1 and weighted-average of 100%. 
+On the other hand, the perceptron and multi-layered perceptron models yielded lowere accuracies. This can be due to 
+it being more difficult the find the best configuration of hyper-parameteres for MLP classifiers.
+
+Lastly, Grid search enabled the model to determine the best set of hyperparameters to use for both the decision tree and 
+multi-layered perceptron models and improved upon the performance in both cases.
