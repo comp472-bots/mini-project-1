@@ -11,8 +11,8 @@ models. This can be attributed to how multi-layered perceptron models used rando
 
 After looking at the average performance values for each run it is evident that the decision tree with and without 
 grid search yielded the best results with an average accuarcy, macro-average F1 and weighted-average of 100%. 
-On the other hand, the perceptron and multi-layered perceptron models yielded lowere accuracies. This can be due to 
-it being more difficult the find the best configuration of hyper-parameteres for MLP classifiers.
+On the other hand, the perceptron and multi-layered perceptron models yielded lower accuracies. This can be due to 
+it being more difficult to find the best configuration of hyper-parameteres for MLP classifiers.
 
 Lastly, Grid search enabled the model to determine the best set of hyperparameters to use for both the decision tree and 
 multi-layered perceptron models and improved upon the performance in both cases.
