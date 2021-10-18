@@ -6,31 +6,31 @@
 
 (b) Confusion Matrix
 
-2	 0	 0	 0	 0	
-0	 3	 0	 0	 0	
-0	 0	 5	 0	 0	
-0	 0	 0	 16	 2	
-4	 3	 3	 0	 12	
+6	 0	 0	 0	 0	
+0	 2	 0	 0	 0	
+0	 0	 2	 0	 0	
+0	 0	 0	 12	 1	
+0	 1	 1	 0	 25	
 
 (c) Classification Report
 
               precision    recall  f1-score   support
 
-       drugA       0.33      1.00      0.50         2
-       drugB       0.50      1.00      0.67         3
-       drugC       0.62      1.00      0.77         5
-       drugX       1.00      0.89      0.94        18
-       drugY       0.86      0.55      0.67        22
+       drugA       1.00      1.00      1.00         6
+       drugB       0.67      1.00      0.80         2
+       drugC       0.67      1.00      0.80         2
+       drugX       1.00      0.92      0.96        13
+       drugY       0.96      0.93      0.94        27
 
-    accuracy                           0.76        50
-   macro avg       0.66      0.89      0.71        50
-weighted avg       0.84      0.76      0.77        50
+    accuracy                           0.94        50
+   macro avg       0.86      0.97      0.90        50
+weighted avg       0.95      0.94      0.94        50
 
 (d) Accuracy, Macro-Average F1 and Weighted-Average F1
 
-Accuracy Score: 0.76
-Macro-Average F1: 0.7087481146304675
-Weighted-Average F1: 0.7690799396681749
+Accuracy Score: 0.94
+Macro-Average F1: 0.9006792452830188
+Weighted-Average F1: 0.9430339622641509
 
 
 ---------------------------------------------------------------------
@@ -40,31 +40,31 @@ Weighted-Average F1: 0.7690799396681749
 
 (b) Confusion Matrix
 
-2	 0	 0	 0	 0	
-0	 3	 0	 0	 0	
-0	 0	 5	 0	 0	
-0	 0	 0	 17	 1	
-0	 0	 0	 0	 22	
+6	 0	 0	 0	 0	
+0	 2	 0	 0	 0	
+0	 0	 2	 0	 0	
+0	 0	 0	 13	 0	
+0	 0	 0	 0	 27	
 
 (c) Classification Report
 
               precision    recall  f1-score   support
 
-       drugA       1.00      1.00      1.00         2
-       drugB       1.00      1.00      1.00         3
-       drugC       1.00      1.00      1.00         5
-       drugX       1.00      0.94      0.97        18
-       drugY       0.96      1.00      0.98        22
+       drugA       1.00      1.00      1.00         6
+       drugB       1.00      1.00      1.00         2
+       drugC       1.00      1.00      1.00         2
+       drugX       1.00      1.00      1.00        13
+       drugY       1.00      1.00      1.00        27
 
-    accuracy                           0.98        50
-   macro avg       0.99      0.99      0.99        50
-weighted avg       0.98      0.98      0.98        50
+    accuracy                           1.00        50
+   macro avg       1.00      1.00      1.00        50
+weighted avg       1.00      1.00      1.00        50
 
 (d) Accuracy, Macro-Average F1 and Weighted-Average F1
 
-Accuracy Score: 0.98
-Macro-Average F1: 0.9898412698412699
-Weighted-Average F1: 0.9799365079365079
+Accuracy Score: 1.0
+Macro-Average F1: 1.0
+Weighted-Average F1: 1.0
 
 
 ---------------------------------------------------------------------
@@ -76,31 +76,31 @@ Best hyper-parameter values determined by GridSearch:{'criterion': 'gini', 'max_
 
 (b) Confusion Matrix
 
-2	 0	 0	 0	 0	
-0	 3	 0	 0	 0	
-0	 0	 5	 0	 0	
-0	 0	 0	 17	 1	
-0	 0	 0	 0	 22	
+6	 0	 0	 0	 0	
+0	 2	 0	 0	 0	
+0	 0	 2	 0	 0	
+0	 0	 0	 13	 0	
+0	 0	 0	 0	 27	
 
 (c) Classification Report
 
               precision    recall  f1-score   support
 
-       drugA       1.00      1.00      1.00         2
-       drugB       1.00      1.00      1.00         3
-       drugC       1.00      1.00      1.00         5
-       drugX       1.00      0.94      0.97        18
-       drugY       0.96      1.00      0.98        22
+       drugA       1.00      1.00      1.00         6
+       drugB       1.00      1.00      1.00         2
+       drugC       1.00      1.00      1.00         2
+       drugX       1.00      1.00      1.00        13
+       drugY       1.00      1.00      1.00        27
 
-    accuracy                           0.98        50
-   macro avg       0.99      0.99      0.99        50
-weighted avg       0.98      0.98      0.98        50
+    accuracy                           1.00        50
+   macro avg       1.00      1.00      1.00        50
+weighted avg       1.00      1.00      1.00        50
 
 (d) Accuracy, Macro-Average F1 and Weighted-Average F1
 
-Accuracy Score: 0.98
-Macro-Average F1: 0.9898412698412699
-Weighted-Average F1: 0.9799365079365079
+Accuracy Score: 1.0
+Macro-Average F1: 1.0
+Weighted-Average F1: 1.0
 
 
 ---------------------------------------------------------------------
@@ -110,31 +110,31 @@ Weighted-Average F1: 0.9799365079365079
 
 (b) Confusion Matrix
 
-0	 0	 0	 2	 0	
-0	 0	 0	 3	 0	
-0	 0	 0	 4	 1	
-0	 0	 0	 14	 4	
-0	 0	 0	 5	 17	
+0	 1	 0	 0	 5	
+0	 2	 0	 0	 0	
+0	 0	 0	 0	 2	
+0	 0	 0	 0	 13	
+0	 0	 0	 0	 27	
 
 (c) Classification Report
 
               precision    recall  f1-score   support
 
-       drugA       0.00      0.00      0.00         2
-       drugB       0.00      0.00      0.00         3
-       drugC       0.00      0.00      0.00         5
-       drugX       0.50      0.78      0.61        18
-       drugY       0.77      0.77      0.77        22
+       drugA       0.00      0.00      0.00         6
+       drugB       0.67      1.00      0.80         2
+       drugC       0.00      0.00      0.00         2
+       drugX       0.00      0.00      0.00        13
+       drugY       0.57      1.00      0.73        27
 
-    accuracy                           0.62        50
-   macro avg       0.25      0.31      0.28        50
-weighted avg       0.52      0.62      0.56        50
+    accuracy                           0.58        50
+   macro avg       0.25      0.40      0.31        50
+weighted avg       0.34      0.58      0.43        50
 
 (d) Accuracy, Macro-Average F1 and Weighted-Average F1
 
-Accuracy Score: 0.62
-Macro-Average F1: 0.27628458498023717
-Weighted-Average F1: 0.5591304347826087
+Accuracy Score: 0.58
+Macro-Average F1: 0.305945945945946
+Weighted-Average F1: 0.4260540540540541
 
 
 ---------------------------------------------------------------------
@@ -149,31 +149,31 @@ Solver = sgd
 
 (b) Confusion Matrix
 
-0	 0	 0	 0	 2	
-0	 0	 0	 3	 0	
-0	 0	 0	 3	 2	
-0	 0	 0	 9	 9	
-0	 0	 0	 3	 19	
+0	 0	 0	 2	 4	
+0	 0	 0	 2	 0	
+0	 0	 0	 2	 0	
+0	 0	 0	 7	 6	
+0	 0	 0	 2	 25	
 
 (c) Classification Report
 
               precision    recall  f1-score   support
 
-       drugA       0.00      0.00      0.00         2
-       drugB       0.00      0.00      0.00         3
-       drugC       0.00      0.00      0.00         5
-       drugX       0.50      0.50      0.50        18
-       drugY       0.59      0.86      0.70        22
+       drugA       0.00      0.00      0.00         6
+       drugB       0.00      0.00      0.00         2
+       drugC       0.00      0.00      0.00         2
+       drugX       0.47      0.54      0.50        13
+       drugY       0.71      0.93      0.81        27
 
-    accuracy                           0.56        50
-   macro avg       0.22      0.27      0.24        50
-weighted avg       0.44      0.56      0.49        50
+    accuracy                           0.64        50
+   macro avg       0.24      0.29      0.26        50
+weighted avg       0.51      0.64      0.57        50
 
 (d) Accuracy, Macro-Average F1 and Weighted-Average F1
 
-Accuracy Score: 0.56
-Macro-Average F1: 0.24074074074074076
-Weighted-Average F1: 0.48962962962962964
+Accuracy Score: 0.64
+Macro-Average F1: 0.2612903225806452
+Weighted-Average F1: 0.565483870967742
 
 
 ---------------------------------------------------------------------
@@ -185,31 +185,31 @@ Best hyper-parameter values determined by GridSearch:{'activation': 'tanh', 'hid
 
 (b) Confusion Matrix
 
-2	 0	 0	 0	 0	
-0	 3	 0	 0	 0	
-0	 0	 2	 3	 0	
-0	 0	 0	 17	 1	
-0	 1	 0	 0	 21	
+4	 2	 0	 0	 0	
+0	 2	 0	 0	 0	
+0	 0	 0	 2	 0	
+0	 0	 0	 12	 1	
+0	 1	 0	 1	 25	
 
 (c) Classification Report
 
               precision    recall  f1-score   support
 
-       drugA       1.00      1.00      1.00         2
-       drugB       0.75      1.00      0.86         3
-       drugC       1.00      0.40      0.57         5
-       drugX       0.85      0.94      0.89        18
-       drugY       0.95      0.95      0.95        22
+       drugA       1.00      0.67      0.80         6
+       drugB       0.40      1.00      0.57         2
+       drugC       0.00      0.00      0.00         2
+       drugX       0.80      0.92      0.86        13
+       drugY       0.96      0.93      0.94        27
 
-    accuracy                           0.90        50
-   macro avg       0.91      0.86      0.86        50
-weighted avg       0.91      0.90      0.89        50
+    accuracy                           0.86        50
+   macro avg       0.63      0.70      0.63        50
+weighted avg       0.86      0.86      0.85        50
 
 (d) Accuracy, Macro-Average F1 and Weighted-Average F1
 
-Accuracy Score: 0.9
-Macro-Average F1: 0.8555707450444293
-Weighted-Average F1: 0.8906766917293233
+Accuracy Score: 0.86
+Macro-Average F1: 0.6343935309973047
+Weighted-Average F1: 0.8511482479784367
 
 
 ---------------------------------------------------------------------
@@ -219,55 +219,55 @@ Listed below are the averages and standard deviations of accuracy, macro-average
 
 GaussianNB:
 
-Average Accuracy = 0.76
-Average Macro-Average F1 = 0.7087481146304675
-Average Weighted-Average F1 = 0.7690799396681749
+Average Accuracy = 0.94
+Average Macro-Average F1 = 0.9006792452830188
+Average Weighted-Average F1 = 0.9430339622641509
 Standard Deviation of Accuracy = 0.0
 Standard Deviation of Macro-average F1 = 0.0
 Standard Deviation of Weighted-average F1 = 0.0
 
 Decision Tree:
 
-Average Accuracy = 0.98
-Average Macro-Average F1 = 0.9898412698412699
-Average Weighted-Average F1 = 0.9799365079365079
+Average Accuracy = 1.0
+Average Macro-Average F1 = 1.0
+Average Weighted-Average F1 = 1.0
 Standard Deviation of Accuracy = 0.0
 Standard Deviation of Macro-average F1 = 0.0
 Standard Deviation of Weighted-average F1 = 0.0
 
 Decision Tree with GridSearch:
 
-Average Accuracy = 0.98
-Average Macro-Average F1 = 0.9898412698412699
-Average Weighted-Average F1 = 0.9799365079365079
+Average Accuracy = 1.0
+Average Macro-Average F1 = 1.0
+Average Weighted-Average F1 = 1.0
 Standard Deviation of Accuracy = 0.0
 Standard Deviation of Macro-average F1 = 0.0
 Standard Deviation of Weighted-average F1 = 0.0
 
 Perceptron:
 
-Average Accuracy = 0.62
-Average Macro-Average F1 = 0.27628458498023717
-Average Weighted-Average F1 = 0.5591304347826087
+Average Accuracy = 0.58
+Average Macro-Average F1 = 0.305945945945946
+Average Weighted-Average F1 = 0.4260540540540541
 Standard Deviation of Accuracy = 0.0
 Standard Deviation of Macro-average F1 = 0.0
 Standard Deviation of Weighted-average F1 = 0.0
 
 Multi-Layered Perceptron:
 
-Average Accuracy = 0.56
-Average Macro-Average F1 = 0.2405015634057868
-Average Weighted-Average F1 = 0.48951639716513135
-Standard Deviation of Accuracy = 0.016329931618554488
-Standard Deviation of Macro-average F1 = 0.008260608555549272
-Standard Deviation of Weighted-average F1 = 0.016105397684091055
+Average Accuracy = 0.622
+Average Macro-Average F1 = 0.2536843864499479
+Average Weighted-Average F1 = 0.5480630806680277
+Standard Deviation of Accuracy = 0.01475729574745245
+Standard Deviation of Macro-average F1 = 0.00794594206810542
+Standard Deviation of Weighted-average F1 = 0.013486463066560168
 
 Multi-Layered Perceptron with GridSearch:
 
-Average Accuracy = 0.8180000000000001
-Average Macro-Average F1 = 0.7276635072478103
-Average Weighted-Average F1 = 0.7938198484316309
-Standard Deviation of Accuracy = 0.05921711464320655
-Standard Deviation of Macro-average F1 = 0.1042830132464386
-Standard Deviation of Weighted-average F1 = 0.07213344344566386
+Average Accuracy = 0.874
+Average Macro-Average F1 = 0.7465140931744706
+Average Weighted-Average F1 = 0.8718739286569476
+Standard Deviation of Accuracy = 0.034058772731852836
+Standard Deviation of Macro-average F1 = 0.0939207646176265
+Standard Deviation of Weighted-average F1 = 0.04389599949452376
 
